@@ -1,0 +1,250 @@
+/*--
+	Author: W3Layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/*-- Reset-Code --*/
+
+
+/*-- bootstrap-modal-pop-up --*/
+
+.modal-body p {
+    color: #999;
+    text-align: left;
+	padding:2em 2em 1em;
+	margin: 0 !important;
+	line-height:2em;
+}
+.modal-body p i {
+    display: block;
+    margin: 1em 0;
+    color: #212121;
+}
+.modal-body {
+    padding:0;
+}
+.modal-body img {
+    padding: 2em 2em 0 2em;
+}
+.modal-content {
+    border-radius: 0;
+}
+button.close {
+    font-size: 1.5em;
+    color:#000;
+	outline: none;
+}
+span.glyphicon.glyphicon-play-circle {
+    color: #fff;
+    font-size: 60px;
+    margin: 0 0 7px 0;
+    cursor: pointer;
+}
+.welcome-w3right {
+    position: relative;
+}
+.wthree-model-video {
+    position: absolute;
+    bottom: 42%;
+    left: 43%;
+}
+.modal-header iframe {
+    width: 100%;
+    height: 400px;
+}
+/*-- //bootstrap-modal-pop-up --*/
+/*-- //welcome --*/ 
+
+/* edu */
+.right1 h3,.left1 h3 {
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    font-size: 20px;
+}
+.right1 p,.left1 p  {
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: .5px;
+    color: #ffffff;
+}
+.right1 {
+    margin-bottom: 3em;
+}
+.left1 {
+    margin-bottom: 7em;
+    text-align: right;
+    padding-right: 4em;
+	position:relative;
+}
+.left1 span.glyphicon.glyphicon-adjust {
+    position: absolute;
+    right: -9%;
+    top: 0%;
+    font-size: 30px;
+    color: #ff4c4c;
+}
+.left1:nth-child(4) {
+    margin-bottom: 0em;
+}
+.right1:nth-child(4) {
+    margin-bottom: 0em;
+}
+.eduright {
+    padding-left: 5em;
+}
+.eduleft {
+    border-right: 1px solid #ffffff;
+}
+.left1 h3 {
+    color: #8c8c8c;
+}
+/* //edu */
+
+
+@media screen and (max-width: 1024px){
+	.bannergrid1 h4 {
+		margin: .5em 0 0;
+	}
+	.banner {
+		background: url(../images/banner2.jpg) no-repeat -200px 0px;
+		background-size: cover;
+	}
+}
+@media screen and (max-width: 991px){
+	.welcome-w3right {
+		margin-bottom: 3em;
+	}
+	.book h3 {
+		font-size: 24px;
+	}
+	.book p {
+		width: 95%;
+	}
+	.book1,.book {
+		padding: 4em 0;
+	}
+	.eduleft {
+		width: 33.33%;
+		float: left;
+	}
+	.eduright {
+		padding-left: 4em;
+		width: 66.66%;
+		float: left;
+	}
+	.right1 p, .left1 p {
+		font-size: 14px;
+	}
+	.left1 {
+		margin-bottom: 10.7em;
+		padding-right: 2em;
+	}
+	.left1 span.glyphicon.glyphicon-adjust {
+		right: -15%;
+	}
+	.c-img {
+		width: 20%;
+		float: left;
+	}
+	.c-info {
+		width: 70%;
+		float: left;
+	}
+	.client-grids {
+		margin-bottom: 3em;
+	}
+	.col-md-5.contact-grid {
+		margin-top: 3em;
+	}
+	.copyrighttop {
+		float: none;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	.copyrightbottom {
+		float: none;
+		text-align: center;
+	}
+	.aboutright {
+		margin-top: 3em;
+	}
+	.servicegrid1 {
+		width: 50%;
+		float: left;
+		margin-bottom: 5em;
+	}
+	.servicegrid1 i.fa {
+		font-size: 50px;
+		margin: .2em 0;
+	}
+	.servicegrid1:nth-child(3), .servicegrid1:nth-child(4) {
+		margin-bottom: 0em;
+	}
+	.teamgrid1 {
+		width: 50%;
+		float: left;
+		padding: 30px;
+	}
+	.teaminfo {
+		padding: 1em 3em;
+	}
+	.demo > li img {
+		width: 236px;
+	}
+	.banner1 h2 {
+		padding: 3em 0 0em 4em;
+		font-size: 35px;
+	}
+	.call:nth-child(2) {
+		margin: 0;
+	}
+	h3.heading {
+		font-size: 33px;
+	}
+	.map h2 {
+		font-size: 33px;
+	}
+	.bannergrid1 {
+		padding: 1em 2em;
+		width: 50%;
+		float: left;
+	}
+	.bannergrid {
+		padding: 0;
+		width: 61%;
+	}
+	.top h5 {
+		letter-spacing: 1px;
+	}
+	.banner {
+		background: url(../images/banner2.jpg) no-repeat -100px 0px;
+		background-size: cover;
+	}
+	.logo h1 a {
+		font-size: .9em;
+	}
+}
+@media screen and (max-width: 900px){
+	.contact p {
+		width: 80%;
+	}
+	.typography, .about, .welcome, .services, .education, .clients, .codes, .contact {
+		padding: 5em 0;
+	}
+	.banner {
+		background: url(../images/banner2.jpg) no-repeat -160px 0px;
+		background-size: cover;
+	}
+	.top h2 {
+		font-size: 26px;
+	}
+   
+    
+}
+
+
+
+}
+/* responsive design */
